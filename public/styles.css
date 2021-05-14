@@ -71,8 +71,19 @@ animation: spin 2s linear infinite;
 .display-1{
   font-size: 13vw;
 };
+
 }
 
+@media screen and (max-width:930px) {
+  .inputCol{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  }
+  
+  }
+  
 
 .btn-warning{
     background-color: #fddb3a;
