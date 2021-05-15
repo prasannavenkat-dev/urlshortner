@@ -12,7 +12,7 @@ linkBox.innerHTML=''
 for(i=0;i<linkList.length;i++){
 
   linkBox.innerHTML+=`
-  <div class="col-lg-3 m-4 pl-4 pr-4 pt-2 pb-2" >
+  <div class="col-lg-3 m-4 pl-4 pr-4 pt-1 pb-1" >
       <div class="card bg-light  text-center" style="width:100%;" >
       <div class="card-header"><a style="text-decoration:none" href="https://theurlshortner.herokuapp.com/`+linkList[i].shortUrl+`"target="_blank"><h6 class="card-title mb-0 p-2">https://theurlshortner.herokuapp.com/${linkList[i].shortUrl}</h6></a></div>
           <div class="card-body align-items-center" >
